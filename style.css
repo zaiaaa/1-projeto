@@ -1,0 +1,23 @@
+.left{
+    /*width foi usado para definir a LARGURA da div*/
+        width: 40%;
+        /*width foi usado para definir a ALTURA da div*/
+        height:450px;
+        background-color: rgb(255, 255, 255); 
+        /*O margin left serve para alinhar a margem da esquerda para a direita*/
+        margin-left:10%;
+        /*O float é usado para colocar a imagem no topo da tela*/
+        float:left;
+        /*O margin top serve para alinhar a margem de cima*/
+        margin-top:200px;
+}
+
+.right{
+        width: 40%;
+        height:450px;
+        background-color: rgb(255, 255, 255);
+        float:right;
+        /*O margin right serve para alinhar a margem da direita*/
+        margin-right:10%;
+        margin-top:200px;
+}
