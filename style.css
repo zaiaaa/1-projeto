@@ -1,47 +1,62 @@
+.logotipo{
+    width: 20%;
+    height: 60px;
+    background: rgb(2,0,36);
+    float: left;
+
+}
+.logotipo h3{
+    margin-top: 0;
+}
 nav{
-        width: 100%;
-        height: 60px;
-        background: rgb(2,0,36);
-        background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(255,255,255,1) 38%, rgba(255,21,0,1) 76%);
-        
-    }
-    p{
-            padding:10px;
-            /*O justificado seria uma linha debaixo da outra, todas alinhadas*/
-            text-align:justify;
-    }
-    ul{
-        /**/
-        /*o list style é como um "enfeitador de textos", nesse caso ele foi usado para retirar a bolinha da lista ordenada*/
-        list-style: none;
-        /*O padding é uma margem para elementos que não são um texto*/
-        padding-top: 20px;
-    }
-    li{
-            color:#00BFFF;
-            /*Pra colocar a lista na mesma linha, é necessario usar o display inline, caso contrario ele ficará um abaixo do outro*/
-            display: inline;
-            padding-left: 20px;
-            
-    }
-    .left{
-        /*width foi usado para definir a LARGURA da div*/
-            width: 40%;
-            /*width foi usado para definir a ALTURA da div*/
-            height:450px;
-            background-color: rgb(255, 255, 255); 
-            /*O margin left serve para alinhar a margem da esquerda para a direita*/
-            margin-left:10%;
-            /*O float é usado para colocar a imagem no topo da tela*/
-            float:left;
-            /*O margin top serve para alinhar a margem de cima*/
-    }
-    
-    .right{
-            width: 40%;
-            height:450px;
-            background-color: rgb(255, 255, 255);
-            float:right;
-            /*O margin right serve para alinhar a margem da direita*/
-            margin-right:10%;
-    }
+    width: 80%;
+    height: 60px;
+    background: rgb(2,0,36);
+    float: right;    
+}
+h3{
+    color:#ffffff;
+    padding:17px
+}
+p{
+        padding:10px;
+        /*O justificado seria uma linha debaixo da outra, todas alinhadas*/
+        text-align:justify;
+}
+ul{
+    /**/
+    /*o list style é como um "enfeitador de textos", nesse caso ele foi usado para retirar a bolinha da lista ordenada*/
+    list-style: none;
+    /*O padding é uma margem para elementos que não são um texto*/
+    padding-top: 5px;
+    margin-left:280px;
+}
+li{
+        color:#00BFFF;
+        /*Pra colocar a lista na mesma linha, é necessario usar o display inline, caso contrario ele ficará um abaixo do outro*/
+        display: inline;
+        padding-left: 20px;
+}
+.left{
+    /*width foi usado para definir a LARGURA da div*/
+        width: 40%;
+        /*width foi usado para definir a ALTURA da div*/
+        height:450px;
+        background-color: rgb(255, 255, 255); 
+        /*O margin left serve para alinhar a margem da esquerda para a direita*/
+        margin-left:10%;
+        /*O float é usado para colocar a imagem no topo da tela*/
+        float:left;
+        /*O margin top serve para alinhar a margem de cima*/
+        margin-top: 25px;
+}
+
+.right{
+        width: 40%;
+        height:450px;
+        background-color: rgb(255, 255, 255);
+        float:right;
+        /*O margin right serve para alinhar a margem da direita*/
+        margin-right:10%;
+        margin-top: 25px;
+}
