@@ -32,10 +32,13 @@ ul{
     margin-left:280px;
 }
 li{
-        color:#00BFFF;
         /*Pra colocar a lista na mesma linha, é necessario usar o display inline, caso contrario ele ficará um abaixo do outro*/
         display: inline;
         padding-left: 20px;
+}
+li a{
+    color:#00BFFF;
+    text-decoration: none;
 }
 .left{
     /*width foi usado para definir a LARGURA da div*/
